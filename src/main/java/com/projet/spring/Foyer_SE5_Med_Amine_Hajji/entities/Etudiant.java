@@ -11,19 +11,13 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
-
 public class Etudiant {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     Long idEtudiant;// clé primaire
     String nomEtudiant;
     String prenomEtudiant;
     Long cin;
     String ecole;
     Date dateNaissance;
-
-
-
-
 }
