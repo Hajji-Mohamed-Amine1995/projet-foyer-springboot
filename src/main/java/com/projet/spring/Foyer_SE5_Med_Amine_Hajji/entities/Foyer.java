@@ -2,7 +2,7 @@ package com.projet.spring.Foyer_SE5_Med_Amine_Hajji.entities;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
-import java.util.List;
+
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor

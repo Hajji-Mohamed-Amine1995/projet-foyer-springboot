@@ -4,8 +4,6 @@ import lombok.*;
 import lombok.experimental.FieldDefaults;
 
 import java.util.Date;
-import java.util.List;
-import java.util.logging.Level;
 
 @Entity
 @Getter
@@ -19,8 +17,8 @@ public class Etudiant {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
     Long idEtudiant;// clé primaire
-    String nomEt;
-    String prenomEt;
+    String nomEtudiant;
+    String prenomEtudiant;
     Long cin;
     String ecole;
     Date dateNaissance;

@@ -6,6 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class FoyerSe5MedAmineHajjiApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(FoyerSe5MedAmineHajjiApplication.class, args);
+		SpringApplication.run(FoyerSe5MedAmineHajjiApplication.class,args);
 	}
 }

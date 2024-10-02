@@ -4,8 +4,6 @@ import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
-import java.time.LocalDate;
-
 @Entity
     @AllArgsConstructor
     @NoArgsConstructor
@@ -13,14 +11,16 @@ import java.time.LocalDate;
     @Setter
     @FieldDefaults(level= AccessLevel.PRIVATE)
 
+
+
 public class Chambre {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
-    @Column(name="idChambtre")
+    @Column(name= "idChambtre")
     Long idChambre; //clé primaire
     Long numeroChambre;
     @Enumerated(EnumType.STRING)
-    TypeChambre typeC;
+    TypeChambre typeChambre;
 
 
 
